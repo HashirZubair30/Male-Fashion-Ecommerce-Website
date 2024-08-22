@@ -1,0 +1,97 @@
+/* Trend.css */
+.trend-container {
+   
+    justify-content: center;
+    padding: 40px;
+    margin-left: 370px;
+    
+  }
+  .latest-news h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px; 
+    
+  }
+ 
+
+  
+ 
+  
+  .trend-gallery {
+    display: flex;
+    
+    gap: 20px; /* Adds gap between gallery items */
+  }
+  
+  .trend-item {
+    text-align: center;
+  }
+  
+  .trend-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .trend-card {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -20px; /* Adjust to move the card up slightly */
+    width: calc(100% - 40px); /* Slightly smaller than the image width */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .trend-date {
+    font-size: 14px;
+    color: #999;
+    margin: 0;
+  }
+  
+  .trend-title {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .trend-link {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .trend-card li {
+    list-style: none;
+  }
+  
+  .trend-card li a {
+    text-decoration: none;
+    color: rgba(12,22,23,255);
+    
+    position: relative;
+    transition: color 0.3s;
+  }
+  
+  .trend-card li a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: rgba(12,22,23,255);
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: transform 0.3s ease;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  
+  .trend-card li a:hover {
+    color: black;
+  }
+  
+  .trend-card li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }  

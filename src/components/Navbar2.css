@@ -1,0 +1,72 @@
+/* Navbar2.css */
+
+.header2 {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+  padding: 10px 400px;
+  background-color: #fff;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.logo {
+  font-family: 'Arial', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+}
+
+.logo .dot {
+  color: red;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  cursor: pointer;
+  font-size: 18px;
+  color: #000;
+  transition: color 0.3s; /* Add transition for smooth color change */
+}
+
+.nav-links li:hover {
+  color: red;
+}
+
+.nav-links li a {
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Set link color to black */
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s; /* Add transition for smooth color change */
+}
+
+.icon:hover {
+  color: #ff0000;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.cart span {
+  font-size: 16px;
+  color: #000;
+}

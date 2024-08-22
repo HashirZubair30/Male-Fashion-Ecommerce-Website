@@ -1,0 +1,53 @@
+.client-container {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .partner-heading {
+    font-size: 22px;
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  .clients-heading {
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .client-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .client-logo {
+    flex: 1 1 22%; /* Ensures four logos per row */
+    max-width: 180px;
+    margin: 10px;
+  }
+  
+  .client-logo img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  /* Media Query for Smaller Screens */
+  @media (max-width: 768px) {
+    .client-logo {
+      flex: 1 1 45%;
+      max-width: 150px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .client-logo {
+      flex: 1 1 90%;
+      max-width: 120px;
+    }
+  }
+  

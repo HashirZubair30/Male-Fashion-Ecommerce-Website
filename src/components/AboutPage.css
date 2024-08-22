@@ -1,0 +1,53 @@
+.about-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 1000px; /* Constrains the entire container width */
+    margin: 0 auto;
+  }
+  
+  .about-image {
+    width: 100%; /* Set to 100% of the container width */
+    max-width: 1000px; /* Matches the container's max width */
+    min-height: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .about-text-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px; /* Reduced margin for closer alignment with the image */
+    width: 100%; /* Matches the image width */
+    max-width: 1000px;
+    margin: 20px auto; /* Center the container and keep it aligned with the image */
+  }
+  
+  .about-text {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .about-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .about-text-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-text {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  }
+  

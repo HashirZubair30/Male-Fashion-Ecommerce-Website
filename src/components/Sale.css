@@ -1,0 +1,57 @@
+/* Sale.css */
+.sale-container {
+    background-color: rgba(243, 242, 238, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-section, .center-section, .right-section {
+    flex: 1;
+  }
+  
+  .center-section {
+    display: flex;
+    justify-content: center;
+    margin-right: 180px;
+  }
+  
+  .sale-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .left-section{
+    margin-left: 240px;
+    margin-top: 70px;
+  }
+  .right-section {
+   margin-right: 10px;
+   margin-top: 70px;
+  }
+  
+  .countdown {
+    display: flex;
+  }
+  
+  .countdown-item {
+    margin-right: 20px; /* Added margin */
+  }
+  
+  .countdown-item span {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .countdown-item span:first-child {
+    margin-bottom: 5px;
+  }
+  .shop-now-button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
